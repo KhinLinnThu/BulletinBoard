@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    vertical-align: bottom;
+    object-fit: cover;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+h1 {
+    font-size: 25px;
+    width: 30%;
+    margin-bottom: 0;
+}
+.sec-content {
+    padding: 30px 25px 40px;
+}
+.content-ttl {
+    font-size: 25px;
+    color: rgb(12, 12, 91);
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+table td:first-child {
+    background-color: rgb(226, 221, 221);
+}
+.post-tb td,
+.post-tb th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+/* header */
+.header {
+    color: #fff;
+    display: flex;
+    padding: 10px 15px 10px 20px;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(12, 12, 91);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+.nav .menu {
+    display: flex;
+    margin-bottom: 0;
+}
+.nav .menu li {
+    list-style: none;
+}
+
+.nav .menu li a {
+    color: #fff;
+    margin-right: 40px;
+}
+.user-name {
+    color : #fff
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+.cmn-btn {
+    color: rgb(12, 12, 91);
+    border: 1px solid rgb(12, 12, 91);
+    background-color: #fff;
+    padding: 10px;
+}
+.cmn-btn:hover {
+    background-color: rgb(12, 12, 91);
+    color: #fff;
+}
+.dropdown-item {
+    font-size: 12px;
+}
+/* Login */
+.top {
+    margin-top: 10%;
+}
+.form {
+    width: 80%;
+    margin: 20px auto 50px;
+}
+.form .error-msg{
+    padding-top: 10px;
+    display: block;
+    text-align: left;
+}
+.jp-ttl {
+    color: rgb(12, 12, 91);
+    font-weight: 600;
+    font-size: 25px;
+}
+.eng-ttl {
+    color: rgb(12, 12, 91);
+    font-size: 25px;
+}
+.login-btn {
+    background-color: rgb(12, 12, 91);
+}
+.forget-password {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+/* PostManagement */
+.search-sec .card-body {
+    background-color: rgb(226, 221, 221);
+    padding: 30px 20px;
+}
+.search-sec .card-body input,
+.search-sec .card-body select {
+    width: 15%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    color: rgb(161, 159, 159);
+}
+.search-sec .card-body input:nth-child(5) {
+    margin-left: 30px;
+}
+.btn-clear,
+.btn-search {
+    width: 10%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+}
+.btn-clear {
+    color: rgb(178, 47, 47);
+    border: 1px solid rgb(178, 47, 47);
+}
+.btn-search {
+    background-color: rgb(178, 47, 47);
+    color: #fff;
+}
+.search-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 20px;
+    align-items: center;
+}
+.upload,
+.download {
+    color: #0d6efd;
+    border-bottom: 1px solid #0d6efd;
+    margin: 0 20px;
+    font-size: 14px;
+}
+.upload i,
+.download i,
+.create i {
+    margin-right: 10px;
+}
+.create {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+table,
+td,
+th {
+    border: 1px solid;
+}
+.post-tb {
+    border-collapse: collapse;
+    text-align: center;
+}
+.post-tb td .edit,
+.post-tb td .delete {
+    text-decoration: underline;
+}
+.post-tb td .delete {
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #0d6efd;
+}
+.modal-dialog {
+    margin-top: 10%;
+}
+.modal-title {
+    font-size: 16px;
+    color: rgb(12, 12, 91);
+    padding: 10px 0;
+}
+.modal-footer button {
+    width: 150px;
+    margin: 25px auto;
+}
+
+/* post create */
+.form-switch {
+    padding-left: 56px;
+}
+.form-switch .form-check-input{
+    width: 50px;
+    height: 25px;
+}
+.form-check-input:active {
+    filter: inherit;
+}
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+/* New Create */
+label {
+    padding: 10px ;
+}
+.create-tb input,.create-tb select,.create-tb textarea,
+.user-tb input,.user-tb select,.user-tb textarea,
+.post-tb input,.post-tb select,.post-tb textarea {
+    outline: none;
+    padding: 7px ;
+    margin: 5px 15px;
+    width: 50%;
+}
+textarea {
+    resize: none;
+}
+.error-msg {
+    color: rgb(223, 96, 96);
+}
+.create-tb tr td:first-child {
+    width: 400px;
+}
+form button {
+    width: 150px;
+    margin: 40px 20px 0;
+}
+
+/* home */
+.post-card-list {
+    padding: 7% 10% 12%;
+    background-color: rgb(226, 221, 221);
+    display: flex;
+    justify-content: center;
+}
+.post-card{
+    background-color: #fff;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    margin-right: 30px;
+}
+.post-card:last-child {
+    margin-right: 0;
+}
+.post-ttl {
+    font-size: 20px;
+}
+.post-count{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(12, 12, 91);
+}
+.post-count span {
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.management {
+    font-size: 12px;
+    color: rgb(12, 12, 91);
+    text-decoration: underline;
+}
+
+/* confirm page */
+.confirm-page input ,.confirm-page textarea{
+    border: none;
+    color: #000;
+}
+td img {
+    width: 150px;
+    height: 150px;
+    margin: 20px 30px;
+}
+
+/* user management */
+.select-user {
+    margin-right: 30px;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    background: none;
+    color: #0d6efd;
+}
+.user-result {
+    display: flex;
+}
+.user-tb td:first-child,
+.user-tb th:first-child,
+.user-tb td:nth-child(4),
+.user-tb th:nth-child(4),
+.user-tb td:last-child,
+.user-tb {
+    text-align: center;
+    vertical-align: middle;
+}
+.user-tb th span,
+.user-tb td span {
+    padding: 12px 0;
+    display: block;
+}
+hr {
+    margin: 0;
+    opacity: 1;
+}
+hr:not([size]) {
+    height: 0.9px;
+}
+
+/* user edit */
+.change-password{
+    padding: 20px 0 0;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* mail complete */
+.mail-complete {
+    width: 80%;
+    margin: 20px auto;
+    cursor: pointer;
+    padding: 13px;
+    background-color: rgb(12, 12, 91);
+}
+
+
+/* profile */
+.profile-img{
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
+}
+.user-profile p {
+    color: #2b2a2a;
+}
+.user-profile .cmn-btn {
+    width: 120px;
+    text-align: center;
+}
+
